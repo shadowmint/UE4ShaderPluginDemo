@@ -31,6 +31,7 @@ class FShaderFileVisitor : public IPlatformFile::FDirectoryVisitor
 {
 public:
 	FShaderFileVisitor();
+	virtual ~FShaderFileVisitor();
 
 //FDirectoryVisitor
 public:
@@ -42,4 +43,3 @@ public:
 
 	TArray<FString> ShaderFilePaths;
 };
-

@@ -22,7 +22,10 @@
 * THE SOFTWARE.
 ******************************************************************************/
 
-#include "ShaderCopyHelperPrivatePCH.h" 
+#include "ShaderCopyHelperPrivatePCH.h"
+
+FShaderFileVisitor::~FShaderFileVisitor() {
+}
 
 FShaderFileVisitor::FShaderFileVisitor()
 {
